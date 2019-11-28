@@ -9,6 +9,9 @@ snippet todo
 snippet fm
 	format(object.size(), "MB")
 
+snippet ddl
+	library(drake); library(data.table); library(lattice) 
+
 snippet gpm
 	library(ggplot2); library(plotly); library(magrittr)
 
@@ -26,9 +29,6 @@ snippet dm
 
 snippet do
 	drake::r_outdated() 
-
-snippet ddl
-	library(drake); library(data.table); library(lattice) 
 
 snippet ds
 	drake::r_sankey_drake_graph(fontSize=15)
